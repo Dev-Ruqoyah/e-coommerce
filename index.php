@@ -142,6 +142,7 @@ include "header.php";
       </div>
     </div>
   </section>
+  
 
 
   <!-- ABOUT SECTION -->
@@ -639,10 +640,11 @@ include "header.php";
   </section>
 
   <!-- FOOTER -->
-  <footer>
-    <div class="container">
-
-    </div>
+  <footer >
+    <?php
+    include "footer.php"
+    
+    ?>
   </footer>
   </div>
 
